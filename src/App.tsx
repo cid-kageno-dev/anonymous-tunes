@@ -11,6 +11,8 @@ import Favorites from "./pages/Favorites";
 import Playlist from "./pages/Playlist";
 import Album from "./pages/Album";
 import Artist from "./pages/Artist";
+import Genres from "./pages/Genres";
+import Genre from "./pages/Genre";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient({
