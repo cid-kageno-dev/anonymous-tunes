@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { Home, Search, Library, Heart, Music2, ListMusic } from "lucide-react";
+import { Home, Search, Library, Heart, Music2, ListMusic, Compass } from "lucide-react";
 import { usePlayer } from "@/lib/store";
 
 const links = [
   { to: "/", icon: Home, label: "Home" },
   { to: "/search", icon: Search, label: "Search" },
+  { to: "/genres", icon: Compass, label: "Browse" },
   { to: "/library", icon: Library, label: "Library" },
 ];
 

@@ -11,6 +11,8 @@ import Favorites from "./pages/Favorites";
 import Playlist from "./pages/Playlist";
 import Album from "./pages/Album";
 import Artist from "./pages/Artist";
+import Genres from "./pages/Genres";
+import Genre from "./pages/Genre";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient({
@@ -32,6 +34,8 @@ const App = () => (
             <Route path="/playlist/:id" element={<Playlist />} />
             <Route path="/album/:id" element={<Album />} />
             <Route path="/artist/:id" element={<Artist />} />
+            <Route path="/genres" element={<Genres />} />
+            <Route path="/genre/:id" element={<Genre />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
