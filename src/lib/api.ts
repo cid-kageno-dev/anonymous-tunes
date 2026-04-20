@@ -1,5 +1,5 @@
 // Deezer public API via CORS proxy. 30-second previews, no auth required.
-const PROXY = "https://corsproxy.io/?url=";
+const PROXY = "https://api.allorigins.win/raw?url=";
 const API = "https://api.deezer.com";
 
 export interface Track {
